@@ -44,7 +44,7 @@ public class DreamBank{
             switch(with){
 
                 case 1: 
-                  savings.mySavings();
+                  savings.myWithdraw(scanner);
                   break;
 
                 case 2:
@@ -54,8 +54,7 @@ public class DreamBank{
                 case 3:
                   myTransaction(scanner);
 
-                default:
-                myTransaction(scanner);
+                
             }
 
         }else if(tran == 2){
