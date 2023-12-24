@@ -19,7 +19,7 @@ public class Savings {
        switch(back){
 
         case 1:
-          DreamBank.myBalance(scanner);
+          Transaction.myBalance(scanner);
           break;
        }
           
@@ -54,7 +54,7 @@ public class Savings {
            break; 
            
          case 2: 
-           DreamBank.myWithdraws(scanner);
+           Transaction.myWithdraws(scanner);
              break;
 
 

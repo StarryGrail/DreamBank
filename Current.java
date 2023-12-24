@@ -17,7 +17,7 @@ public class Current {
           switch(back){
    
            case 1:
-             DreamBank.myBalance(scanner);
+             Transaction.myBalance(scanner);
              break;
           }
 
