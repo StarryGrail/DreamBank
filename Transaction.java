@@ -1,8 +1,25 @@
 import java.util.Scanner;
+import javax.swing.*;
+import java.awt.*;
 
 public class Transaction {
 
+    static JFrame frame = new JFrame();
+    JLabel label = new JLabel("Choose Transaction");
      public static void myTransaction(Scanner scanner){
+
+        frame.setLayout(new BorderLayout(10,10));
+        frame.setSize(900,600);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+
+
+
+
+
+
+
+
 
         Savings savings = new Savings();
         Current current = new Current();
